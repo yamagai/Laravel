@@ -52,7 +52,7 @@ class BookController extends Controller
       $book->author = $request->author;
       $book->save();
 
-      return redirect("/book");
+      return redirect("/");
   }
 
   public function destroy($id)
